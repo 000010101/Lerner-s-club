@@ -1,0 +1,102 @@
+*{
+    padding: 0 25px 0 25px;
+    margin: 0 2S5px 0 25px;
+    text-align: center;
+}
+body{
+    background-color: rgb(208, 187, 227);
+}
+header div p{
+    font-size: 80px;
+}
+header div{
+    display: flex;
+}
+.logo{
+    position: relative;
+    top: 30px;
+    height: 200px;
+    width: 100px;
+    background: url(pic_bulbon.gif);
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.logo:hover{
+    background: url(pic_bulboff.gif);
+    background-repeat: no-repeat;
+}
+header{
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.box{ 
+   transition: box-shadow  .3s;
+   width: 300px;
+   height: 300px;
+   margin: 50px;
+   border-radius: 10px;
+   border: 3px solid rgb(181, 116, 190);
+   background: #fff;
+   color: purple;
+}
+main .boxes{
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+    color: black;
+}
+main div{
+    text-align: center;
+}
+
+footer{
+    height: 30vh;
+    text-align: center;
+    position:relative;
+    top: 50px;
+}
+
+.box:hover{
+    box-shadow: 0 0 20px rgb(176, 45, 176);
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 30px;
+}
+nav ul li a{ 
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: rgb(229, 33, 219);
+}
+.boxes a{
+    text-decoration: none;
+    background-color: none;
+}
+.firstpara{
+    height: 300px;
+}
+.boxes div a{
+    position: relative;
+    top: 100px;
+}
+hr{
+    background-color: rgb(240, 0, 188);
+    color: rgb(170, 0, 255);
+}
+a{
+    color: purple;
+}
+
+
+
+@media (max-width: 768px) {
+    .boxes{
+        display: block;
+    }    
+}
